@@ -1,0 +1,12 @@
+def LinearSearch(arr, key):
+	Found, Index, MaxIndex = False, 0, len(arr)-1
+	while (not Found) and (Index <= MaxIndex)
+	if arr[Index] == key:
+		Found = True
+	else:
+		Index += 1
+	if Found:
+		return Index
+	else:
+		return -1
+		
